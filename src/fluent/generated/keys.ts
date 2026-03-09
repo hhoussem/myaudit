@@ -37,6 +37,22 @@ declare global {
                         table: 'sys_wizard_answer'
                         id: '5c8d8a89536b7a10470af7e0a0490e13'
                     }
+                    '688d8ac1536b7a10470af7e0a0490e72': {
+                        table: 'sys_ui_section'
+                        id: '688d8ac1536b7a10470af7e0a0490e72'
+                    }
+                    '75952a01536f7a10470af7e0a0490eb9': {
+                        table: 'sys_ui_element'
+                        id: '75952a01536f7a10470af7e0a0490eb9'
+                    }
+                    '79952a01536f7a10470af7e0a0490e9f': {
+                        table: 'sys_ui_element'
+                        id: '79952a01536f7a10470af7e0a0490e9f'
+                    }
+                    '7d952a01536f7a10470af7e0a0490e9d': {
+                        table: 'sys_ui_element'
+                        id: '7d952a01536f7a10470af7e0a0490e9d'
+                    }
                     '7db2aa89532f7a10470af7e0a0490e41': {
                         table: 'sys_ui_element'
                         id: '7db2aa89532f7a10470af7e0a0490e41'
@@ -73,9 +89,17 @@ declare global {
                         table: 'sys_script_client'
                         id: '0b5d69fe01664f77b67d116b0faf0099'
                     }
+                    f9952a01536f7a10470af7e0a0490e9e: {
+                        table: 'sys_ui_element'
+                        id: 'f9952a01536f7a10470af7e0a0490e9e'
+                    }
                     f9b2aa89532f7a10470af7e0a0490e42: {
                         table: 'sys_ui_element'
                         id: 'f9b2aa89532f7a10470af7e0a0490e42'
+                    }
+                    fd952a01536f7a10470af7e0a0490e9c: {
+                        table: 'sys_ui_element'
+                        id: 'fd952a01536f7a10470af7e0a0490e9c'
                     }
                     fdb2aa89532f7a10470af7e0a0490e40: {
                         table: 'sys_ui_element'
@@ -115,6 +139,15 @@ declare global {
                                     name: 'x_1936206_myaudit.viewer'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '0db0625b8aef43909df3d9bd8a12da4c'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'login'
+                            language: 'en'
                         }
                     },
                     {
@@ -175,6 +208,13 @@ declare global {
                         }
                     },
                     {
+                        table: 'ua_table_licensing_config'
+                        id: '2bd9da815be24534af84ff2f89d90aec'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                        }
+                    },
+                    {
                         table: 'sys_ui_list_element'
                         id: '2c8d8a89536b7a10470af7e0a0490e96'
                         deleted: true
@@ -191,6 +231,14 @@ declare global {
                                 }
                             }
                             element: 'sys_class_name'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '300b25d3cb70486093f7f1e8b1465ab5'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'role'
                         }
                     },
                     {
@@ -220,11 +268,28 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '4a18a27fc1614bb3a494ad5635c5110f'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'audit'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '4c76e23f20704b54ad253bc1b80050fb'
                         key: {
                             name: 'x_1936206_myaudit_audit'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice_set'
+                        id: '4db12c13ad624ee8a92e0fb25d4ac18b'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'role'
                         }
                     },
                     {
@@ -294,6 +359,13 @@ declare global {
                             name: 'x_1936206_myaudit_audit'
                             element: 'NULL'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: '9d6048ab80f14332a31cdad13109d46f'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
                         }
                     },
                     {
@@ -394,6 +466,75 @@ declare global {
                         id: 'c98dca89536b7a10470af7e0a0490ea2'
                         key: {
                             name: 'x_1936206_myaudit.manager'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'cd0e39d794634e60a51c4c1d465428c2'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'audit'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'd3c338df41d147e7ae3e10e8bbf5bf90'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'dc328ac7d7174ff5ac01289587b474d5'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'role'
+                            value: 'viewer'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'dcb3cd1da55e44fe987f28649605a58b'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'role'
+                            value: 'manager'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'e3a2a15736e84b3c8ef7cff298c6af71'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'e8f8bcd2c02b416bb40cbb377d30623d'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'role'
+                            value: 'encoder'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'f90796541b9146c5904ad3981d6ac69d'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'login'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'fa5e0e3ba05f4bacba2900843e5185f4'
+                        key: {
+                            name: 'x_1936206_myaudit_person_in_charge'
+                            element: 'role'
+                            language: 'en'
                         }
                     },
                 ]
