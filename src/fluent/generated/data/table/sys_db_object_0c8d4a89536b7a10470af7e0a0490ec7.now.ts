@@ -6,7 +6,6 @@ export const x_1936206_myaudit_audit = Table({
     allowNewFields: true,
     allowUiActions: true,
     allowWebServiceAccess: true,
-    extends: 'task',
     label: 'audit',
     name: 'x_1936206_myaudit_audit',
     schema: {},
