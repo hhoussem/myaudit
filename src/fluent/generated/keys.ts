@@ -118,6 +118,82 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list_element'
+                        id: '208d8a89536b7a10470af7e0a0490e96'
+                        deleted: true
+                        key: {
+                            list_id: {
+                                id: '688d8a89536b7a10470af7e0a0490e90'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'assigned_to'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '248d8a89536b7a10470af7e0a0490e94'
+                        deleted: true
+                        key: {
+                            list_id: {
+                                id: '688d8a89536b7a10470af7e0a0490e90'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'number'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '248d8a89536b7a10470af7e0a0490e95'
+                        deleted: true
+                        key: {
+                            list_id: {
+                                id: '688d8a89536b7a10470af7e0a0490e90'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'priority'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '2c8d8a89536b7a10470af7e0a0490e96'
+                        deleted: true
+                        key: {
+                            list_id: {
+                                id: '688d8a89536b7a10470af7e0a0490e90'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'sys_class_name'
+                        }
+                    },
+                    {
                         table: 'sys_security_acl_role'
                         id: '458d0e89536b7a10470af7e0a0490e5a'
                         key: {
@@ -174,6 +250,24 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_list'
+                        id: '688d8a89536b7a10470af7e0a0490e90'
+                        deleted: true
+                        key: {
+                            name: 'x_1936206_myaudit_audit'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                            element: 'NULL'
+                            relationship: 'NULL'
+                            parent: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_security_acl_role'
                         id: '898dca89536b7a10470af7e0a0490ef6'
                         key: {
@@ -213,6 +307,44 @@ declare global {
                                     name: 'x_1936206_myaudit.manager'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'a48d8a89536b7a10470af7e0a0490e96'
+                        deleted: true
+                        key: {
+                            list_id: {
+                                id: '688d8a89536b7a10470af7e0a0490e90'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'short_description'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'a88d8a89536b7a10470af7e0a0490e95'
+                        deleted: true
+                        key: {
+                            list_id: {
+                                id: '688d8a89536b7a10470af7e0a0490e90'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'state'
                         }
                     },
                     {
