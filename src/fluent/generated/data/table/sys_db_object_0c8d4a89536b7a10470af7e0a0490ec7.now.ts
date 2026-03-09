@@ -1,4 +1,4 @@
-import { Table } from '@servicenow/sdk/core'
+import { StringColumn, Table } from '@servicenow/sdk/core'
 
 export const x_1936206_myaudit_audit = Table({
     actions: ['read', 'update', 'create'],
@@ -9,5 +9,14 @@ export const x_1936206_myaudit_audit = Table({
     extends: 'task',
     label: 'audit',
     name: 'x_1936206_myaudit_audit',
-    schema: {},
+    schema: {
+        title: StringColumn({
+            label: [
+                {
+                    label: 'Title',
+                    language: 'en',
+                },
+            ],
+        }),
+    },
 })
