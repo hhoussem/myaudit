@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_module">
+    <sys_module action="INSERT_OR_UPDATE">
+        <content><![CDATA[{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:1f3c9a88-b532-4276-b7e8-169b684685d5",
+  "metadata": {
+    "timestamp": "2026-03-09T06:14:13.758Z",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "name": "sdk-build-plugins",
+          "group": "@servicenow",
+          "version": "4.3.0",
+          "author": "ServiceNow"
+        }
+      ]
+    },
+    "component": {
+      "type": "application",
+      "name": "x-1936206-myaudit",
+      "version": "1.0.0",
+      "bom-ref": "pkg:servicenow/x-1936206-myaudit@1.0.0?sys_scope_id=4d0b8a45536b7a10470af7e0a0490e22",
+      "description": "audit",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNLICENSED"
+          }
+        }
+      ],
+      "purl": "pkg:servicenow/x-1936206-myaudit@1.0.0?sys_scope_id=4d0b8a45536b7a10470af7e0a0490e22"
+    }
+  },
+  "components": [],
+  "dependencies": [
+    {
+      "ref": "pkg:servicenow/x-1936206-myaudit@1.0.0?sys_scope_id=4d0b8a45536b7a10470af7e0a0490e22"
+    }
+  ]
+}]]></content>
+        <external_source>false</external_source>
+        <path>x_1936206_myaudit/x-1936206-myaudit/1.0.0/bom.json</path>
+        <sys_class_name>sys_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-09 05:35:22</sys_created_on>
+        <sys_id>abca996bdb8d475f9944411c2fa97b8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1936206_myaudit/x-1936206-myaudit/1.0.0/bom.json</sys_name>
+        <sys_package display_value="myaudit" source="x_1936206_myaudit">4d0b8a45536b7a10470af7e0a0490e22</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="myaudit">4d0b8a45536b7a10470af7e0a0490e22</sys_scope>
+        <sys_update_name>sys_module_abca996bdb8d475f9944411c2fa97b8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-09 05:35:22</sys_updated_on>
+    </sys_module>
+</record_update>
