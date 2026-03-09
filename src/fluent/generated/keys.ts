@@ -131,6 +131,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '58822e88500945a1b5ea29e58b46209a'
+                        key: {
+                            name: 'x_1936206_myaudit_audit'
+                            element: 'title'
+                        }
+                    },
+                    {
                         table: 'ua_table_licensing_config'
                         id: '5f00cd5ce92a47a4802a400dc13ceb02'
                         key: {
@@ -177,6 +185,15 @@ declare global {
                                     name: 'x_1936206_myaudit.manager'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'c0fb316eba5447c199a25e99c3166b5d'
+                        key: {
+                            name: 'x_1936206_myaudit_audit'
+                            element: 'title'
+                            language: 'en'
                         }
                     },
                     {
