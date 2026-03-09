@@ -1,0 +1,6 @@
+{
+  "scope": "x_1936206_myaudit",
+  "scopeId": "4d0b8a45536b7a10470af7e0a0490e22",
+  "name": "myaudit",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
