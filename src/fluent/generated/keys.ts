@@ -13,6 +13,18 @@ declare global {
                         table: 'sys_security_acl'
                         id: '098d0e89536b7a10470af7e0a0490e48'
                     }
+                    '2162ae49532f7a10470af7e0a0490e69': {
+                        table: 'sys_ui_section'
+                        id: '2162ae49532f7a10470af7e0a0490e69'
+                    }
+                    '2562ae49532f7a10470af7e0a0490eb7': {
+                        table: 'sys_ui_form'
+                        id: '2562ae49532f7a10470af7e0a0490eb7'
+                    }
+                    '2d62ae49532f7a10470af7e0a0490ebf': {
+                        table: 'sys_ui_form_section'
+                        id: '2d62ae49532f7a10470af7e0a0490ebf'
+                    }
                     '418d0e89536b7a10470af7e0a0490e51': {
                         table: 'sys_security_acl'
                         id: '418d0e89536b7a10470af7e0a0490e51'
@@ -25,6 +37,10 @@ declare global {
                         table: 'sys_wizard_answer'
                         id: '5c8d8a89536b7a10470af7e0a0490e13'
                     }
+                    '7db2aa89532f7a10470af7e0a0490e41': {
+                        table: 'sys_ui_element'
+                        id: '7db2aa89532f7a10470af7e0a0490e41'
+                    }
                     '898dca89536b7a10470af7e0a0490efe': {
                         table: 'sys_security_acl'
                         id: '898dca89536b7a10470af7e0a0490efe'
@@ -32,6 +48,10 @@ declare global {
                     '998d0e89536b7a10470af7e0a0490e60': {
                         table: 'sys_security_acl'
                         id: '998d0e89536b7a10470af7e0a0490e60'
+                    }
+                    a162ae49532f7a10470af7e0a0490ebe: {
+                        table: 'sys_ui_form_section'
+                        id: 'a162ae49532f7a10470af7e0a0490ebe'
                     }
                     bom_json: {
                         table: 'sys_module'
@@ -52,6 +72,14 @@ declare global {
                     cs0: {
                         table: 'sys_script_client'
                         id: '0b5d69fe01664f77b67d116b0faf0099'
+                    }
+                    f9b2aa89532f7a10470af7e0a0490e42: {
+                        table: 'sys_ui_element'
+                        id: 'f9b2aa89532f7a10470af7e0a0490e42'
+                    }
+                    fdb2aa89532f7a10470af7e0a0490e40: {
+                        table: 'sys_ui_element'
+                        id: 'fdb2aa89532f7a10470af7e0a0490e40'
                     }
                     package_json: {
                         table: 'sys_module'
