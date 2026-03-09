@@ -33,6 +33,16 @@ declare global {
                         table: 'sys_security_acl'
                         id: '418dca89536b7a10470af7e0a0490ec9'
                     }
+                    '5c1e6ec153af7a10470af7e0a0490e3e': {
+                        table: 'par_dashboard_widget'
+                        id: '5c1e6ec153af7a10470af7e0a0490e3e'
+                        deleted: true
+                    }
+                    '5c1e6ec153af7a10470af7e0a0490e69': {
+                        table: 'par_dashboard_widget'
+                        id: '5c1e6ec153af7a10470af7e0a0490e69'
+                        deleted: true
+                    }
                     '5c8d8a89536b7a10470af7e0a0490e13': {
                         table: 'sys_wizard_answer'
                         id: '5c8d8a89536b7a10470af7e0a0490e13'
@@ -61,6 +71,10 @@ declare global {
                         table: 'sys_security_acl'
                         id: '898dca89536b7a10470af7e0a0490efe'
                     }
+                    '986be24d536f7a10470af7e0a0490e43': {
+                        table: 'sys_relationship'
+                        id: '986be24d536f7a10470af7e0a0490e43'
+                    }
                     '998d0e89536b7a10470af7e0a0490e60': {
                         table: 'sys_security_acl'
                         id: '998d0e89536b7a10470af7e0a0490e60'
@@ -88,6 +102,21 @@ declare global {
                     cs0: {
                         table: 'sys_script_client'
                         id: '0b5d69fe01664f77b67d116b0faf0099'
+                    }
+                    d01e6ec153af7a10470af7e0a0490e45: {
+                        table: 'par_dashboard_widget'
+                        id: 'd01e6ec153af7a10470af7e0a0490e45'
+                        deleted: true
+                    }
+                    dc1e6ec153af7a10470af7e0a0490e61: {
+                        table: 'par_dashboard_widget'
+                        id: 'dc1e6ec153af7a10470af7e0a0490e61'
+                        deleted: true
+                    }
+                    dc1e6ec153af7a10470af7e0a0490e65: {
+                        table: 'par_dashboard_widget'
+                        id: 'dc1e6ec153af7a10470af7e0a0490e65'
+                        deleted: true
                     }
                     f9952a01536f7a10470af7e0a0490e9e: {
                         table: 'sys_ui_element'
@@ -151,6 +180,24 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_permission'
+                        id: '101e2ec153af7a10470af7e0a0490ef5'
+                        key: {
+                            dashboard: '141e2ec153af7a10470af7e0a0490eca'
+                            user: '6816f79cc0a8016401c5a33be04be441'
+                            group: 'NULL'
+                            role: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_canvas'
+                        id: '1c1e6ec153af7a10470af7e0a0490e3a'
+                        key: {
+                            dashboard: '141e2ec153af7a10470af7e0a0490eca'
+                            dashboard_tab: '941e6ec153af7a10470af7e0a0490e1c'
+                        }
+                    },
+                    {
                         table: 'sys_ui_list_element'
                         id: '208d8a89536b7a10470af7e0a0490e96'
                         deleted: true
@@ -167,6 +214,19 @@ declare global {
                                 }
                             }
                             element: 'assigned_to'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '220ee6c153af7a10470af7e0a0490e01'
+                        key: {
+                            sys_security_acl: '590ea2c1f1af7a10a180400ba84ebcee'
+                            sys_user_role: {
+                                id: 'c18dca89536b7a10470af7e0a0490eab'
+                                key: {
+                                    name: 'x_1936206_myaudit.encoder'
+                                }
+                            }
                         }
                     },
                     {
@@ -208,6 +268,24 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_user_role_contains'
+                        id: '260ee6c153af7a10470af7e0a0490e42'
+                        key: {
+                            role: {
+                                id: 'c18dca89536b7a10470af7e0a0490eab'
+                                key: {
+                                    name: 'x_1936206_myaudit.encoder'
+                                }
+                            }
+                            contains: {
+                                id: '8536f54bc713330072b211d4d8c26080'
+                                key: {
+                                    name: 'canvas_user'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'ua_table_licensing_config'
                         id: '2bd9da815be24534af84ff2f89d90aec'
                         key: {
@@ -239,6 +317,14 @@ declare global {
                         key: {
                             name: 'x_1936206_myaudit_person_in_charge'
                             element: 'role'
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_visibility'
+                        id: '381eaec153af7a10470af7e0a0490e73'
+                        key: {
+                            dashboard: '141e2ec153af7a10470af7e0a0490eca'
+                            experience: '150ea2c1fdaf7a10e80bf9b91a37f5f9'
                         }
                     },
                     {
@@ -293,6 +379,13 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_view'
+                        id: '510ea2c175af7a102cddf07ce1bf41ee'
+                        key: {
+                            name: 'workspace-myaudit-0'
+                        }
+                    },
+                    {
                         table: 'sys_db_object'
                         id: '533e4ee7a1f542e48109b8632277c7cf'
                         key: {
@@ -315,6 +408,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_dictionary'
+                        id: '60b93adb6b9d4eb1be631c2a18228894'
+                        key: {
+                            name: 'x_1936206_myaudit_audit'
+                            element: 'persons_in_charge'
+                        }
+                    },
+                    {
                         table: 'sys_ui_list'
                         id: '688d8a89536b7a10470af7e0a0490e90'
                         deleted: true
@@ -330,6 +431,60 @@ declare global {
                             element: 'NULL'
                             relationship: 'NULL'
                             parent: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role_contains'
+                        id: '6e0ee6c153af7a10470af7e0a0490e4a'
+                        key: {
+                            role: {
+                                id: 'c98dca89536b7a10470af7e0a0490ea2'
+                                key: {
+                                    name: 'x_1936206_myaudit.manager'
+                                }
+                            }
+                            contains: {
+                                id: '8536f54bc713330072b211d4d8c26080'
+                                key: {
+                                    name: 'canvas_user'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '770eeac153af7a10470af7e0a0490e70'
+                        key: {
+                            list_id: {
+                                id: 'b70eeac153af7a10470af7e0a0490e61'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: '510ea2c175af7a102cddf07ce1bf41ee'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'assigned_to'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: '7b0eeac153af7a10470af7e0a0490e6f'
+                        key: {
+                            list_id: {
+                                id: 'b70eeac153af7a10470af7e0a0490e61'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: '510ea2c175af7a102cddf07ce1bf41ee'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'title'
                         }
                     },
                     {
@@ -420,6 +575,66 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: 'ae0ee6c153af7a10470af7e0a0490e28'
+                        key: {
+                            sys_security_acl: '590ea2c1f1af7a10a180400ba84ebcee'
+                            sys_user_role: {
+                                id: '8d8dca89536b7a10470af7e0a0490e14'
+                                key: {
+                                    name: 'x_1936206_myaudit.viewer'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_permission'
+                        id: 'b01eaec153af7a10470af7e0a0490e91'
+                        key: {
+                            dashboard: '141e2ec153af7a10470af7e0a0490eca'
+                            user: 'NULL'
+                            group: 'NULL'
+                            role: {
+                                id: 'c98dca89536b7a10470af7e0a0490ea2'
+                                key: {
+                                    name: 'x_1936206_myaudit.manager'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list'
+                        id: 'b70eeac153af7a10470af7e0a0490e61'
+                        key: {
+                            name: 'x_1936206_myaudit_audit'
+                            view: {
+                                id: '510ea2c175af7a102cddf07ce1bf41ee'
+                                key: {
+                                    name: 'workspace-myaudit-0'
+                                }
+                            }
+                            sys_domain: 'global'
+                            element: 'NULL'
+                            relationship: 'NULL'
+                            parent: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_permission'
+                        id: 'bc1eaec153af7a10470af7e0a0490e95'
+                        key: {
+                            dashboard: '141e2ec153af7a10470af7e0a0490eca'
+                            user: 'NULL'
+                            group: 'NULL'
+                            role: {
+                                id: '8d8dca89536b7a10470af7e0a0490e14'
+                                key: {
+                                    name: 'x_1936206_myaudit.viewer'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'c0fb316eba5447c199a25e99c3166b5d'
                         key: {
@@ -486,6 +701,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_canvas'
+                        id: 'dc1e6ec153af7a10470af7e0a0490e16'
+                        key: {
+                            dashboard: '141e2ec153af7a10470af7e0a0490eca'
+                            dashboard_tab: 'NULL'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'dc328ac7d7174ff5ac01289587b474d5'
                         key: {
@@ -501,6 +724,19 @@ declare global {
                             name: 'x_1936206_myaudit_person_in_charge'
                             element: 'role'
                             value: 'manager'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'e20ee6c153af7a10470af7e0a0490e16'
+                        key: {
+                            sys_security_acl: '590ea2c1f1af7a10a180400ba84ebcee'
+                            sys_user_role: {
+                                id: 'c98dca89536b7a10470af7e0a0490ea2'
+                                key: {
+                                    name: 'x_1936206_myaudit.manager'
+                                }
+                            }
                         }
                     },
                     {
@@ -521,6 +757,57 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_user_role_contains'
+                        id: 'ee0ee6c153af7a10470af7e0a0490e5d'
+                        key: {
+                            role: {
+                                id: '8d8dca89536b7a10470af7e0a0490e14'
+                                key: {
+                                    name: 'x_1936206_myaudit.viewer'
+                                }
+                            }
+                            contains: {
+                                id: '8536f54bc713330072b211d4d8c26080'
+                                key: {
+                                    name: 'canvas_user'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'f30eeac153af7a10470af7e0a0490e6f'
+                        key: {
+                            list_id: {
+                                id: 'b70eeac153af7a10470af7e0a0490e61'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: '510ea2c175af7a102cddf07ce1bf41ee'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'number'
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_permission'
+                        id: 'f41eaec153af7a10470af7e0a0490e79'
+                        key: {
+                            dashboard: '141e2ec153af7a10470af7e0a0490eca'
+                            user: 'NULL'
+                            group: 'NULL'
+                            role: {
+                                id: 'c18dca89536b7a10470af7e0a0490eab'
+                                key: {
+                                    name: 'x_1936206_myaudit.encoder'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'f90796541b9146c5904ad3981d6ac69d'
                         key: {
@@ -535,6 +822,33 @@ declare global {
                             name: 'x_1936206_myaudit_person_in_charge'
                             element: 'role'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'fc674ed105364f8385dbababbe9b96c9'
+                        key: {
+                            name: 'x_1936206_myaudit_audit'
+                            element: 'persons_in_charge'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_list_element'
+                        id: 'ff0eeac153af7a10470af7e0a0490e6f'
+                        key: {
+                            list_id: {
+                                id: 'b70eeac153af7a10470af7e0a0490e61'
+                                key: {
+                                    name: 'x_1936206_myaudit_audit'
+                                    view: '510ea2c175af7a102cddf07ce1bf41ee'
+                                    sys_domain: 'global'
+                                    element: 'NULL'
+                                    relationship: 'NULL'
+                                    parent: 'NULL'
+                                }
+                            }
+                            element: 'state'
                         }
                     },
                 ]
